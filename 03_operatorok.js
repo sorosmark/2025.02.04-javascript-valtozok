@@ -48,11 +48,12 @@ p=5;
 y=p--; // posztdekrement 
 console.log(`p=${p}, y=${y}`); 
 
+
 let kocka = "kocka";
-kocka += "has";
+kocka += "has"
 console.log(kocka);
 
-//kapcsolati operatorok
+//kapcsolati operátorok
 const gyumolcs = { fa: 'alma', fajta: 'Starking', szin: 'piros' }; 
 console.log('fajta' in gyumolcs); //true
 console.log(gyumolcs instanceof String); //true
@@ -72,3 +73,21 @@ x = 5
 y = "8";
 let u = x + y;
 console.log(u);
+/*************  ✨ Codeium Command 🌟  *************/
+/**
+ * This function returns a fixed number.
+ * @returns {number} - The number 5.
+ */
+function fuggveny() { 
+    // Declare a local variable using let
+    let szam = 5;
+    
+    // Declare a local variable using var
+    var valtozo = 20;
+    
+    // Return the value of szam
+    return szam; 
+}
+/******  d374bb0f-d34f-4e8e-b970-87621c0b49cd  *******/
+// console.log(fuggveny());
+// console.log(valtozo);

@@ -11,3 +11,5 @@ let terulet = sugar * sugar * Math.PI;
 let kerulet = sugar * 2 * Math.PI;
 console.log(terulet);
 console.log(kerulet);
+
+
